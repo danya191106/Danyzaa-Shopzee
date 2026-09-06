@@ -151,10 +151,11 @@ header {
         width: 90%;
     }
     .products {
-        gap: 15px;
+        gap: 20px;
     }
     .product {
-        width: 42%;
+        width: calc(50% - 10px);
+        box-sizing: border-box;
     }
     .product img {
         height: 220px;
